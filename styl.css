@@ -43,7 +43,7 @@ section {
     background-color: rgba(255, 247, 230, 0.9);
 }
 
-section h2 {
+h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
     color: #007bff;
@@ -51,8 +51,7 @@ section h2 {
     text-transform: uppercase;
 }
 
-/* Styl dla paragrafów */
-section p {
+p {
     font-size: 1.2em;
     margin: 10px 0;
     text-align: justify;
@@ -69,7 +68,7 @@ video {
 }
 
 /* Galeria obrazów */
-section a img {
+a img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -79,7 +78,7 @@ section a img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-section a img:hover {
+a img:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
@@ -97,4 +96,8 @@ section a img:hover {
     section h2 {
         font-size: 1.5em;
     }
+}
+
+#albumyem   {
+    width: 50%;
 }
