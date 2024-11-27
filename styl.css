@@ -1,0 +1,100 @@
+/* Ustawienia globalne */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Nagłówek */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Sekcje */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#filmy {
+    background-color: rgba(233, 247, 255, 0.9);
+}
+
+#empik {
+    background-color: rgba(255, 247, 230, 0.9);
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #007bff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Styl dla paragrafów */
+section p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* Styl dla wideo */
+video {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+/* Galeria obrazów */
+section a img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section a img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Dodatki responsywne */
+@media (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
